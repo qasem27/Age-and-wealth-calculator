@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* خلفية التطبيق باللون الأسود */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #f4c6c6; /* نافذة التطبيق باللون الوردي */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* لون النص في العنوان */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="date"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #28a745; /* لون زر الحساب */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resetButton {
+    background-color: #dc3545; /* لون زر إعادة الحساب */
+    color: #fff;
+}
+
+#resetButton:hover {
+    background-color: #c82333;
+}
+
+#ageResult, #wealthResult {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
